@@ -1,0 +1,10 @@
+Name = input('What is your name? ')
+print('Hi ' + Name)
+color = input('What is your favorite color? ')
+print(Name + "'s Favorite color is " + color)
+
+weight = input('What is your weight? ')
+weight = int(weight)
+weight_kg = int(weight * 0.4535)
+weight_final = str(weight_kg)
+print('your weight is ' + weight_final)
