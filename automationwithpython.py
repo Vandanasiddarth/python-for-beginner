@@ -21,6 +21,7 @@ def process_workbook(filename):
     s.graphicalProperties.solidFill = "ff9900"
     sheet.add_chart(chart, 'e2')
     wb.save(filename)
+    # let's add a comment to see changes in git
 
 
 path = Path()
